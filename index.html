@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="div1">
+        <h1>CALCULATOR</h1>
+        <div class="div2">
+            <div class="div3"><input id="operand1" type="text" value="0" placeholder="Input 1 operand"></div>
+            <div class="div4">
+                <select id="operations">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="mul">*</option>
+                    <option value="div">/</option>
+                </select>
+            </div>
+            <div class="div3"><input id="operand2" type="text" value="0" placeholder="Input 2 operand"></div>
+        </div>
+        <div class="divResult" onclick="Result()">
+            <p style="font-size: 28px;">Result</p>
+        </div>
+        <p style="font-size: 28px; display: flex; align-items: center; justify-content: center;" id="result">...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

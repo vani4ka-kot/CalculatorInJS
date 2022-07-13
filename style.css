@@ -1,0 +1,72 @@
+body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    margin: 0;
+}
+
+.div1 {
+    text-align: center;
+    width: 600px;
+    min-height: 261px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 2% 15% 2%;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8% 0 8%;
+}
+
+.div3 {
+    width: 200px;
+    height: 35px;
+}
+
+.div4 {
+    width: 35px;
+    height: 35px;
+}
+
+.div3,
+.div4 {
+    border: 2px solid rgba(6, 179, 0, 0.445);
+    border-radius: 5px;
+    margin: 0 0.5% 0 0.5%;
+}
+
+.divResult {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(200, 255, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 41.8%;
+}
+
+.divResult:hover {
+    box-shadow: 0 0 6px rgb(6, 179, 0);
+}
+
+input {
+    width: 96%;
+    height: 83%;
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+}
